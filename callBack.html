@@ -165,7 +165,7 @@
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2>Register Now</h2>
-         
+          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
         </div><!-- End Section Title -->
 
         <!-- <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="400">
@@ -240,215 +240,56 @@
 <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00Dam00000fIrw0"
   method="POST">
 
-  <!-- Hidden fields for form settings -->
-  <input type="hidden" name="captcha_settings"
-    value='{"keyname":"crmantraideahelix","fallback":"true","orgId":"00Dam00000fIrw0","ts":""}'>
-  <input type="hidden" name="oid" value="00Dam00000fIrw0">
-  <input type="hidden" name="retURL" value="http://crmantra-ideahelix-wtny.com/">
 
-  <!-- Form container -->
-  <div class="row gy-4">
-    
+  <input type=hidden name='captcha_settings'
+    value='{"keyname":"WorldTourNYC","fallback":"true","orgId":"00Dam00000fIrw0","ts":""}'>
+  <input type=hidden name="oid" value="00Dam00000fIrw0">
+  <input type=hidden name="retURL" value="https://ajay-das-k.github.io/Agentforce-NY---Comms-and-Media-Happy-Hour/">
+        <div class="row gy-4">
+  <!--  ----------------------------------------------------------------------  -->
+  <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+  <!--  these lines if you wish to test in debug mode.                          -->
+  <!--  <input type="hidden" name="debug" value=1>                              -->
+  <!--  <input type="hidden" name="debugEmail"                                  -->
+  <!--  value="aleena.mathews@crmantra.com">                                    -->
+  <!--  ----------------------------------------------------------------------  -->
 <div class="col-md-12">
-    <!-- Salutation -->
-    <div class="form-group">
-      <label for="salutation">Salutation</label>
-      <select id="salutation" name="salutation" class="form-control">
-        <option value="">--Select--</option>
-        <option value="Mr.">Mr.</option>
-        <option value="Ms.">Ms.</option>
-        <option value="Mrs.">Mrs.</option>
-        <option value="Dr.">Dr.</option>
-        <option value="Prof.">Prof.</option>
-        <option value="Mx.">Mx.</option>
-      </select>
-    </div>
+  <label for="first_name">First Name</label>
+  
+  <input id="first_name" maxlength="40" name="first_name" size="20"type="text" class="form-control"/>
 </div>
 <div class="col-md-12">
-    <!-- First Name -->
-    <div class="form-group">
-      <label for="first_name">First Name</label>
-      <input id="first_name" name="first_name" maxlength="40" type="text" class="form-control" required />
-    </div>
+  <label for="last_name">Last Name</label>
+  <input id="last_name" maxlength="80" name="last_name" size="20" type="text"  class="form-control"/>
 </div>
 <div class="col-md-12">
-    <!-- Last Name -->
-    <div class="form-group">
-      <label for="last_name">Last Name</label>
-      <input id="last_name" name="last_name" maxlength="80" type="text" class="form-control" required />
-    </div>
+  <label for="email">Email</label>
+  <input id="email" maxlength="80" name="email" size="20" type="text" class="form-control"/>
 </div>
 <div class="col-md-12">
-    <!-- Email -->
-    <div class="form-group">
-      <label for="email">Email</label>
-      <input id="email" name="email" maxlength="80" type="email" class="form-control" required />
-    </div>
-</div>
-<div class="col-md-12">
-    <!-- Mobile -->
-    <div class="form-group">
-      <label for="mobile">Mobile</label>
-      <input id="mobile" name="mobile" maxlength="40" type="tel" class="form-control" pattern="[0-9]{10}"
-        placeholder="1234567890" />
-    </div>
-</div>
-<div class="col-md-12">
-    <!-- Company -->
-    <div class="form-group">
-      <label for="company">Company</label>
-      <input id="company" name="company" maxlength="40" type="text" class="form-control" />
-    </div>
-</div>
-<div class="col-md-12">
-    <!-- Title -->
-    <div class="form-group">
-      <label for="title">Title</label>
-      <input id="title" name="title" maxlength="40" type="text" class="form-control" />
-    </div>
-</div>
-<div class="col-md-12">
-    <!-- City -->
-    <div class="form-group">
-      <label for="city">City</label>
-      <input id="city" name="city" maxlength="40" type="text" class="form-control" />
-    </div>
-</div>
-<div class="col-md-12">
-    <!-- State/Province -->
-    <!-- State/Province -->
-    <div class="form-group">
-      <label for="state">State/Province</label>
-      <select id="state" name="state" class="form-control">
-        <option value="">--Select State/Province--</option>
-        <!-- United States States -->
-        <option value="Alabama">Alabama</option>
-        <option value="Alaska">Alaska</option>
-        <option value="Arizona">Arizona</option>
-        <option value="Arkansas">Arkansas</option>
-        <option value="California">California</option>
-        <option value="Colorado">Colorado</option>
-        <option value="Connecticut">Connecticut</option>
-        <option value="Delaware">Delaware</option>
-        <option value="Florida">Florida</option>
-        <option value="Georgia">Georgia</option>
-        <option value="Hawaii">Hawaii</option>
-        <option value="Idaho">Idaho</option>
-        <option value="Illinois">Illinois</option>
-        <option value="Indiana">Indiana</option>
-        <option value="Iowa">Iowa</option>
-        <option value="Kansas">Kansas</option>
-        <option value="Kentucky">Kentucky</option>
-        <option value="Louisiana">Louisiana</option>
-        <option value="Maine">Maine</option>
-        <option value="Maryland">Maryland</option>
-        <option value="Massachusetts">Massachusetts</option>
-        <option value="Michigan">Michigan</option>
-        <option value="Minnesota">Minnesota</option>
-        <option value="Mississippi">Mississippi</option>
-        <option value="Missouri">Missouri</option>
-        <option value="Montana">Montana</option>
-        <option value="Nebraska">Nebraska</option>
-        <option value="Nevada">Nevada</option>
-        <option value="New Hampshire">New Hampshire</option>
-        <option value="New Jersey">New Jersey</option>
-        <option value="New Mexico">New Mexico</option>
-        <option value="New York">New York</option>
-        <option value="North Carolina">North Carolina</option>
-        <option value="North Dakota">North Dakota</option>
-        <option value="Ohio">Ohio</option>
-        <option value="Oklahoma">Oklahoma</option>
-        <option value="Oregon">Oregon</option>
-        <option value="Pennsylvania">Pennsylvania</option>
-        <option value="Rhode Island">Rhode Island</option>
-        <option value="South Carolina">South Carolina</option>
-        <option value="South Dakota">South Dakota</option>
-        <option value="Tennessee">Tennessee</option>
-        <option value="Texas">Texas</option>
-        <option value="Utah">Utah</option>
-        <option value="Vermont">Vermont</option>
-        <option value="Virginia">Virginia</option>
-        <option value="Washington">Washington</option>
-        <option value="West Virginia">West Virginia</option>
-        <option value="Wisconsin">Wisconsin</option>
-        <option value="Wyoming">Wyoming</option>
-    
-        <!-- Canadian Provinces -->
-        <option value="Alberta">Alberta</option>
-        <option value="British Columbia">British Columbia</option>
-        <option value="Manitoba">Manitoba</option>
-        <option value="New Brunswick">New Brunswick</option>
-        <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
-        <option value="Nova Scotia">Nova Scotia</option>
-        <option value="Ontario">Ontario</option>
-        <option value="Prince Edward Island">Prince Edward Island</option>
-        <option value="Quebec">Quebec</option>
-        <option value="Saskatchewan">Saskatchewan</option>
-    
-        <!-- Add more provinces or regions as needed -->
-      </select>
-    </div>
+  <label for="company">Company</label>
+  <input id="company" maxlength="40" name="company" size="20" type="text" class="form-control"/>
+</div><div class="col-md-12">
+  <label for="title">Title</label>
+  <input id="title" maxlength="40" name="title" size="20" type="text" class="form-control"/>
+</div><div class="col-md-12">
+  <label for="city">City</label>
+  <input id="city" maxlength="40" name="city" size="20" type="text" class="form-control"/>
+</div><div class="col-md-12">
+  <label for="state">State/Province</label>
+  <input id="state" maxlength="20" name="state" size="20" type="text" class="form-control"/>
+</div><div class="col-md-12">
+  <label for="country">Country</label>
+  <input id="country" maxlength="40" name="country" size="20" type="text" class="form-control"/>
+</div><div class="col-md-12">
+  <div class="g-recaptcha" data-sitekey="6LeFoHQqAAAAAH6d0ENAkFvrsKukllu5EjyADzfs"></div>
+  
 
 </div>
-<div class="col-md-12">
-  <!-- Country -->
-  <div class="form-group">
-    <label for="country">Country</label>
-    <select id="country" name="country" class="form-control">
-      <option value="">--Select Country--</option>
-      <option value="United States">United States</option>
-      <option value="Canada">Canada</option>
-      <option value="United Kingdom">United Kingdom</option>
-      <option value="Australia">Australia</option>
-      <option value="India">India</option>
-      <option value="China">China</option>
-      <option value="France">France</option>
-      <option value="Germany">Germany</option>
-      <option value="Japan">Japan</option>
-      <option value="Mexico">Mexico</option>
-      <option value="Brazil">Brazil</option>
-      <option value="South Africa">South Africa</option>
-      <option value="Nigeria">Nigeria</option>
-      <option value="Russia">Russia</option>
-      <option value="South Korea">South Korea</option>
-      <option value="Italy">Italy</option>
-      <option value="Spain">Spain</option>
-      <option value="Netherlands">Netherlands</option>
-      <option value="Sweden">Sweden</option>
-      <option value="Switzerland">Switzerland</option>
-      <option value="New Zealand">New Zealand</option>
-      <option value="Argentina">Argentina</option>
-      <option value="Colombia">Colombia</option>
-      <option value="Philippines">Philippines</option>
-      <option value="Malaysia">Malaysia</option>
-      <option value="Thailand">Thailand</option>
-      <option value="Singapore">Singapore</option>
-      <option value="Saudi Arabia">Saudi Arabia</option>
-      <option value="United Arab Emirates">United Arab Emirates</option>
-      <!-- Add more countries as needed -->
-    </select>
-  </div>
-</div>
-
-
-    <!-- CAPTCHA -->
-      <div class="col-md-12 text-center">
-    <div class="form-group">
-      <div class="g-recaptcha" data-sitekey="6Ld663UqAAAAAD2l73QQG188tA3CAba6851diDZY"></div>
-    </div>
-    </div>
-
-    <!-- Submit button -->
-        <div class="col-md-12 text-center">
-    <div class="form-group">
-      <button type="submit" class="read-more">Register</button>
-    </div>
-    </div>
-
+<input type="submit" class="read-more" name="submit">
   </div>
 
 </form>
-
 
 
 
