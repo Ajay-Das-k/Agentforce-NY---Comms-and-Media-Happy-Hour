@@ -48,22 +48,19 @@
 
 <header id="header" class="header d-flex align-items-center fixed-top">
   <div class="container-fluid d-flex align-items-center justify-content-center position-relative">
-    <a href="https://crmantra.com/" target="_blank" class="logo d-flex align-items-center mx-auto">
+    <a href="https://crmantra.com/" target="_blank" class="logo d-flex align-items-center mx-auto p-3">
       <img src="assets/img/logo0.png" alt="" class="responsive-logo">
      
     </a>
-      <a href="https://www.salesforce.com/events/world-tour/nyc/"   class="logo d-flex align-items-center mx-auto">
-        
-        <img src="assets/img/logo.png" alt="">
-        
-      </a>
-      <a href="https://ideahelix.com/"  target="_blank" class="logo d-flex align-items-center mx-auto">
-       
-        <img src="assets/img/logo1.png"  alt="" class="responsive-logo">
-      </a>
-    <nav id="navmenu" class="navmenu">
-      <!-- <i class="mobile-nav-toggle d-xl-none bi bi-list position-absolute end-0"></i> -->
-    </nav>
+    <a href="https://ideahelix.com/" target="_blank" class="logo d-flex align-items-center mx-auto p-3">
+    
+      <img src="assets/img/logo1.png" alt="" class="responsive-logo">
+    </a>
+    <a href="https://ideahelix.com/" target="_blank" class="logo d-flex align-items-center mx-auto p-3" >
+    
+      <img src="assets/img/logo.png" alt="" class="responsive-logo">
+    </a>
+ 
   </div>
 </header>
 
@@ -78,10 +75,15 @@
       <div class="container text-center">
         <div class="d-flex flex-column justify-content-center align-items-center">
           <h1 data-aos="fade-up">Agentforce NY - Comms and Media Happy Hour<br><span>Co-sponsored by CRMantra and IdeaHelix</span></h1>
-          <p data-aos="fade-up" data-aos-delay="100">An exclusive cocktail hour to network with Communications and Media industry leaders.
-          Connect with your peers, and Industry Experts from Salesforce, CRMantra and IdeaHelix.
-          Discover keys to elevating customer engagement, streamlining operations, and unlocking  growth.<br></p>
-          <h5 data-aos="fade-up">Bowlero - Chelsea Piers, minutes from Javits Center.</h5>
+
+          <p data-aos="fade-up" data-aos-delay="100">
+            An exclusive cocktail hour to network with Communications and Media industry leaders.
+            Connect with your peers, and Industry Experts from Salesforce, CRMantra and IdeaHelix.
+            Discover keys to elevating customer engagement, streamlining operations, and unlocking  growth.
+        </p>
+<a href="https://maps.app.goo.gl/d63Qs4zie8Ri7B3h7"><h5 data-aos="fade-up">Bowlero - Chelsea Piers, minutes from Javits Center.</h5></a>
+
+          
           <h1><span class="span2">Wednesday, November 20: 4-6pm</span></h1>
 <div class="timer-container responsive-timer">
   <script class="140954c9a9a914a9270f8a0f534cb3f7"
@@ -109,7 +111,7 @@
     
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Platinum Sponsors</h2>
+        <h2>Sponsors</h2>
         <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
       </div><!-- End Section Title -->
     
@@ -123,8 +125,9 @@
         <!-- Replace with actual logo path -->
         <div>
           <img src="assets/img/crmantra-logo.png" alt="CRMantra Logo" class="service-logo">
-          <p>CRMantra is a team of seasoned consultants and engineers specializing in CRM, CPQ, and CLM implementations. Trusted for
-          delivering complex projects seamlessly, we ensure our clients achieve smooth, successful outcomes every time.</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+          book.</p>
           <a href="https://crmantra.com/" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
         </div>
       </div>
@@ -138,9 +141,9 @@
         <!-- Replace with actual logo path -->
         <div>
           <img src="assets/img/ideahelix-logo.png" alt="Ledo Markt Logo" class="service-logo">
-          <p>IdeaHelix definitely has very deep Salesforce Industries cloud expertise. We are a growing company and they brought in
-          their experts and their accelerators to show us how we can not just grow, but grow effectively and the right way with
-          Salesforce.</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+          book.</p>
           <a href="https://ideahelix.com/" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
         </div>
       </div>
@@ -288,7 +291,7 @@
 <div class="col-md-12">
     <!-- Mobile -->
     <div class="form-group">
-      <label for="mobile">Mobile  <span style="color: red;">*</span></label>
+      <label for="mobile">Mobile  </label>
       <input id="mobile" name="mobile" maxlength="40" type="tel" class="form-control" pattern="[0-9]{10}"
         placeholder="1234567890" />
     </div>
@@ -297,14 +300,14 @@
     <!-- Company -->
     <div class="form-group">
       <label for="company">Company  <span style="color: red;">*</span></label>
-      <input id="company" name="company" maxlength="40" type="text" class="form-control" />
+      <input id="company" name="company" maxlength="40" type="text" class="form-control" required />
     </div>
 </div>
 <div class="col-md-12">
     <!-- Title -->
     <div class="form-group">
       <label for="title">Title  <span style="color: red;">*</span></label>
-      <input id="title" name="title" maxlength="40" type="text" class="form-control" />
+      <input id="title" name="title" maxlength="40" type="text" class="form-control"  required/>
     </div>
 </div>
 
@@ -312,8 +315,8 @@
 <div class="col-md-12">
   <!-- Country -->
   <div class="form-group">
-    <label for="country">Country  <span style="color: red;">*</span></label>
-    <select id="country" name="country" class="form-control">
+    <label for="country">Country </label>
+    <select id="country" name="country" class="form-control" required >
       <option value="">--Select Country--</option>
       <option value="Other">Other</option>
       <option value="United States">United States</option>
@@ -355,7 +358,7 @@
     <!-- State/Province -->
     <!-- State/Province -->
     <div class="form-group">
-      <label for="state">State/Province  <span style="color: red;">*</span></label>
+      <label for="state">State/Province  </label>
       <select id="state" name="state" class="form-control">
         <option value="">--Select State/Province--</option>
         <!-- United States States -->
@@ -442,7 +445,7 @@
     <input type="checkbox" class="form-check-input" id="acknowledge" required>
     <label class="form-check-label" for="acknowledge">
       By registering, you confirm that you have read and agree to the <a href="#terms" target="_blank">Event
-        Terms of Service</a> and to the storing and processing of your personal data by CRMantra as
+        Terms of Service</a> and to the storing and processing of your personal data as
       described in the <a href="#privacy" target="_blank">Privacy Statement</a>.
     </label>
   </div>
@@ -510,7 +513,7 @@
               </div><!-- End Google Maps -->
         <div class="row gy-4">
 
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-6">
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-geo-alt"></i>
               <h3>Address</h3>
@@ -518,15 +521,9 @@
             </div>
           </div><!-- End Info Item -->
 
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone"></i>
-              <h3>Call Us</h3>
-              <p>+1 5589 55488 55</p>
-            </div>
-          </div><!-- End Info Item -->
+        
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-6 col-md-6">
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-envelope"></i>
               <h3>Email Us</h3>
@@ -552,7 +549,7 @@
   
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">CRMantra</strong><span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">CRMantra 2024</strong><span>All Rights Reserved</span></p>
       <div class="credits">
 
         Designed by <a href="https://crmantra.com/">CRMantra</a> Dist<a href="https://crmantra.com/">CRMantra
